@@ -14,6 +14,10 @@ class Pm2ProcessEvents extends EventEmitter {
     });
   }
 
+  destroy() {
+    return this.socket.destroy();
+  }
+
   handler(data) {
     const msg = new Message(data);
     const namespace = msg.shift();
