@@ -28,7 +28,7 @@ yarn add pm2-process-events
 ## Usage
 
 ```js
-import Pm2ProcessEvents from './src/events.js';
+import Pm2ProcessEvents from 'pm2-process-events';
 
 const emitter = new Pm2ProcessEvents();
 emitter.on('event', (namespace, data) => {

@@ -6,7 +6,7 @@
   "license": "MIT",
   "types": "./index.d.ts",
   "exports": {
-    "default": "./src/index.mjs",
+    "import": "./src/index.mjs",
     "require": "./src/index.cjs"
   },
   "repository": {
