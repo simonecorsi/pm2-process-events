@@ -1,6 +1,6 @@
 {
   "name": "pm2-process-events",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "description": "🛎 Pm2 process events directly from its unix socket",
   "author": "Simone Corsi <simonecorsi.dev@gmail.com>",
   "license": "MIT",
