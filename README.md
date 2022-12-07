@@ -40,8 +40,7 @@ emitter.on('event', (namespace, data) => {
 // data format
 {
   at: number;
-  process: {
-  }
+  process: Record<string, any>;
   manually: boolean;
   event: string;
 }
