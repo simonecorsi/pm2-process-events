@@ -30,19 +30,23 @@ yarn add pm2-process-events
 ```js
 import Pm2ProcessEvents from 'pm2-process-events';
 
-const emitter = new Pm2ProcessEvents();
-emitter.on('event', (namespace, data) => {
-  console.log(namespace, data);
+const pm2Events = new Pm2ProcessEvents(
+  // pm2.sock location, defaults to:
+  `${process.env.HOME}/.pm2/pub.sock`
+);
+
+pm2Events.on('*', ({ namespace, payload }) => {
+  console.log(namespace, payload);
 });
 ```
+
+You can filter events using `wildcards` matching, eg: `log:*`
 
 ```ts
 // data format
 {
-  at: number;
-  process: Record<string, any>;
-  manually: boolean;
   event: string;
+  payload: any;
 }
 ```
 
