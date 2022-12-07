@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/simonecorsi/pm2-process-events/compare/v1.0.2...v1.1.0) (2022-12-07)
+
+
+### Features
+
+* event filtering ([d269ac3](https://github.com/simonecorsi/pm2-process-events/commit/d269ac399b166468fcb42d7d426d46f40a6551c9))
+
 ## [1.0.2](https://github.com/simonecorsi/pm2-process-events/compare/v1.0.1...v1.0.2) (2022-12-07)
 
 
