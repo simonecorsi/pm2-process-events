@@ -18,8 +18,6 @@
   },
   "scripts": {
     "types": "tsc --allowJs -d --emitDeclarationOnly src/index.cjs",
-    "test": "tap",
-    "coverage": "tap --coverage-report=html",
     "prepare": "node prepare.js || echo 'Skipping prepare'"
   },
   "keywords": [
