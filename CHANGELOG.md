@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/simonecorsi/pm2-process-events/compare/v1.0.1...v1.0.2) (2022-12-07)
+
+
+### Bug Fixes
+
+* npmignore ([14c2677](https://github.com/simonecorsi/pm2-process-events/commit/14c26771000564be12e6f828a55b8e752e4a28bc))
+
 ## [1.0.1](https://github.com/simonecorsi/pm2-process-events/compare/v1.0.0...v1.0.1) (2022-12-07)
 
 
